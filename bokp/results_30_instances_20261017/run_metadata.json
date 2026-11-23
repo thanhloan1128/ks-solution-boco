@@ -39,8 +39,8 @@
   "gurobi_seed": 271828,
   "platform": "macOS-26.3.1-arm64-arm-64bit",
   "python": "3.11.7 (v3.11.7:fa7a6f2303, Dec  4 2023, 15:22:56) [Clang 13.0.0 (clang-1300.0.29.30)]",
-  "output_root": "/Users/nguyenthanhloan/Documents/code/KS_Knapsack/results_30_instances_20261017",
-  "summary_path": "/Users/nguyenthanhloan/Documents/code/KS_Knapsack/results_30_instances_20261017/ks_summary.csv",
+  "output_root": "results_30_instances_20261017",
+  "summary_path": "results_30_instances_20261017/ks_summary.csv",
   "failures": [
     {
       "instance_id": "bokp_n0850_i014",
@@ -83,11 +83,11 @@
     "bokp_n0850_i014: RuntimeError(\"phase2P_4 did not solve to optimality: {'stage': 'phase2P_4', 'status_code': 11, 'status': '11', 'objective_value': None, 'runtime_seconds': 0.04157429200131446, 'termination': {'sol_count': 4, 'has_incumbent': True}, 'parameters': {'Threads': 1, 'Seed': 271828, 'TimeLimit': 'infinite', 'MIPGap': 0.0, 'MIPGapAbs': 0.0}}\")"
   ],
   "outputs": {
-    "instances": "/Users/nguyenthanhloan/Documents/code/KS_Knapsack/results_30_instances_20261017/instances",
-    "instance_results": "/Users/nguyenthanhloan/Documents/code/KS_Knapsack/results_30_instances_20261017/instance_results",
-    "per_instance_csv": "/Users/nguyenthanhloan/Documents/code/KS_Knapsack/results_30_instances_20261017/per_instance_results.csv",
-    "average_csv": "/Users/nguyenthanhloan/Documents/code/KS_Knapsack/results_30_instances_20261017/average_results.csv",
-    "latex": "/Users/nguyenthanhloan/Documents/code/KS_Knapsack/results_30_instances_20261017/ks_summary_average.tex"
+    "instances": "results_30_instances_20261017/instances",
+    "instance_results": "results_30_instances_20261017/instance_results",
+    "per_instance_csv": "results_30_instances_20261017/per_instance_results.csv",
+    "average_csv": "results_30_instances_20261017/average_results.csv",
+    "latex": "results_30_instances_20261017/ks_summary_average.tex"
   },
   "smoke_test": "completed in temporary output directory before the 600-run batch"
 }

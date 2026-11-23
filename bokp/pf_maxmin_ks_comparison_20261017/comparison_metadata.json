@@ -1,9 +1,9 @@
 {
   "sources": {
-    "instances": "/Users/nguyenthanhloan/Documents/code/KS_Knapsack/results_30_instances_20261017/instances",
-    "ks_summary": "/Users/nguyenthanhloan/Documents/code/KS_Knapsack/results_30_instances_20261017/ks_summary.csv",
-    "ks_instance_results": "/Users/nguyenthanhloan/Documents/code/KS_Knapsack/results_30_instances_20261017/instance_results",
-    "pf_results": "/Users/nguyenthanhloan/Documents/code/KS_Knapsack/pf_results_20261017_final2",
+    "instances": "results_30_instances_20261017/instances",
+    "ks_summary": "results_30_instances_20261017/ks_summary.csv",
+    "ks_instance_results": "results_30_instances_20261017/instance_results",
+    "pf_results": "pf_results_20261017_final2",
     "instance_count": 600,
     "instance_ids": [
       "bokp_n0050_i001",

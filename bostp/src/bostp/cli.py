@@ -17,8 +17,24 @@ def main() -> None:
     parser.add_argument("--overall-budget-seconds", type=float)
     parser.add_argument("--instance-budget-seconds", type=float)
     parser.add_argument("--phase2-gap-tolerance", type=float, default=1e-5)
+    parser.add_argument(
+        "--sizes", type=int, nargs="+", default=list(ExperimentConfig().sizes),
+        help="graph sizes n to generate, e.g. '--sizes 80' for a single quick size",
+    )
+    parser.add_argument(
+        "--probabilities", type=float, nargs="+", default=list(ExperimentConfig().probabilities),
+        help="Erdos-Renyi edge probabilities p, e.g. '--probabilities 0.3'",
+    )
+    parser.add_argument(
+        "--instances-per-pair", type=int, default=ExperimentConfig().instances_per_pair,
+        help="number of instances generated per (n, p) pair",
+    )
     args = parser.parse_args()
-    path = ExperimentRunner(ExperimentConfig(), args.master_seed).run(
+    config = ExperimentConfig(
+        sizes=tuple(args.sizes), probabilities=tuple(args.probabilities),
+        instances_per_pair=args.instances_per_pair,
+    )
+    path = ExperimentRunner(config, args.master_seed).run(
         Path(args.output), args.mode == "full", args.resume,
         args.overall_budget_seconds, args.instance_budget_seconds, args.instances_from,
         args.phase2_gap_tolerance,
