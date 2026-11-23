@@ -1,0 +1,201 @@
+{
+  "run_id": "20261101T084002Z",
+  "master_seed": 20261101,
+  "dataset_origin": "existing saved instances; no regeneration",
+  "seed_provenance": "fixed master seed supplied for this run",
+  "config": {
+    "sizes": [
+      120,
+      140
+    ],
+    "probabilities": [
+      0.3,
+      0.5,
+      0.7
+    ],
+    "instances_per_pair": 2,
+    "cost_range": [
+      20,
+      120
+    ],
+    "time_range": [
+      1,
+      100
+    ],
+    "phase2_time_limit": null,
+    "gurobi_threads": 1
+  },
+  "accepted_instances": 12,
+  "graph_generation": "networkx.gnp_random_graph; disconnected candidates rejected",
+  "rejected_candidates_by_pair": {
+    "n120_p0.3": {
+      "accepted_instances": [
+        "bostp_n0120_p03_i002",
+        "bostp_n0120_p03_i003"
+      ],
+      "accepted_seeds": [
+        4963504039578606752,
+        2860245906252615841
+      ],
+      "rejected_candidates": 0,
+      "rejected_seeds": []
+    },
+    "n120_p0.5": {
+      "accepted_instances": [
+        "bostp_n0120_p05_i003",
+        "bostp_n0120_p05_i004"
+      ],
+      "accepted_seeds": [
+        1451754728440029077,
+        2219075997472026247
+      ],
+      "rejected_candidates": 0,
+      "rejected_seeds": []
+    },
+    "n120_p0.7": {
+      "accepted_instances": [
+        "bostp_n0120_p07_i003",
+        "bostp_n0120_p07_i005"
+      ],
+      "accepted_seeds": [
+        2243961567340438711,
+        5558209947603828067
+      ],
+      "rejected_candidates": 0,
+      "rejected_seeds": []
+    },
+    "n140_p0.3": {
+      "accepted_instances": [
+        "bostp_n0140_p03_i003",
+        "bostp_n0140_p03_i004"
+      ],
+      "accepted_seeds": [
+        2465891733637037654,
+        633784569940078854
+      ],
+      "rejected_candidates": 0,
+      "rejected_seeds": []
+    },
+    "n140_p0.5": {
+      "accepted_instances": [
+        "bostp_n0140_p05_i003",
+        "bostp_n0140_p05_i004"
+      ],
+      "accepted_seeds": [
+        2437842871750499299,
+        3840161346653665287
+      ],
+      "rejected_candidates": 0,
+      "rejected_seeds": []
+    },
+    "n140_p0.7": {
+      "accepted_instances": [
+        "bostp_n0140_p07_i001",
+        "bostp_n0140_p07_i004"
+      ],
+      "accepted_seeds": [
+        2326625934834980933,
+        7721650752148502394
+      ],
+      "rejected_candidates": 0,
+      "rejected_seeds": []
+    }
+  },
+  "solver_versions": {
+    "networkx": "2.8.4",
+    "gurobipy": "12.0.3"
+  },
+  "source_sha256": "624a34ed2089f248aefce69370f86f2016d060454ebcbb1cea80b22d0f7b70d8",
+  "phase2": "Gurobi static MTZ formulation; relative MIP gap 1e-05 and absolute gap 0",
+  "phase2_formulation": "mtz-static-v1",
+  "phase2_gap_tolerance": 1e-05,
+  "run_status": "INCOMPLETE_RESULTS",
+  "source_run": "/private/tmp/bostp_stage2_seed20261101_source",
+  "source_generation_metadata": {
+    "accepted_instances": 12,
+    "config": {
+      "cost_range": [
+        20,
+        120
+      ],
+      "gurobi_threads": 1,
+      "instances_per_pair": 2,
+      "phase2_time_limit": null,
+      "probabilities": [
+        0.3,
+        0.5,
+        0.7
+      ],
+      "sizes": [
+        120,
+        140
+      ],
+      "time_range": [
+        1,
+        100
+      ]
+    },
+    "dataset_origin": "new seed; two lowest-edge candidates selected per configuration",
+    "master_seed": 20261101,
+    "retained_instance_count": 12,
+    "retained_instance_ids": [
+      "bostp_n0120_p03_i002",
+      "bostp_n0120_p03_i003",
+      "bostp_n0120_p05_i003",
+      "bostp_n0120_p05_i004",
+      "bostp_n0120_p07_i003",
+      "bostp_n0120_p07_i005",
+      "bostp_n0140_p03_i004",
+      "bostp_n0140_p03_i003",
+      "bostp_n0140_p05_i003",
+      "bostp_n0140_p05_i004",
+      "bostp_n0140_p07_i001",
+      "bostp_n0140_p07_i004"
+    ]
+  },
+  "retained_instance_ids": [
+    "bostp_n0120_p03_i002",
+    "bostp_n0120_p03_i003",
+    "bostp_n0120_p05_i003",
+    "bostp_n0120_p05_i004",
+    "bostp_n0120_p07_i003",
+    "bostp_n0120_p07_i005",
+    "bostp_n0140_p03_i003",
+    "bostp_n0140_p03_i004",
+    "bostp_n0140_p05_i003",
+    "bostp_n0140_p05_i004",
+    "bostp_n0140_p07_i001",
+    "bostp_n0140_p07_i004"
+  ],
+  "retained_instance_count": 12,
+  "phase2_gap_tolerance_runs": [
+    {
+      "started_at": "2026-11-01T08:40:02.515068+00:00",
+      "relative_mip_gap_tolerance": 1e-05,
+      "source_sha256": "624a34ed2089f248aefce69370f86f2016d060454ebcbb1cea80b22d0f7b70d8"
+    },
+    {
+      "started_at": "2026-11-01T09:25:51.152911+00:00",
+      "relative_mip_gap_tolerance": 1e-05,
+      "source_sha256": "b496d33a74ee641efb75a97434e42e210e2b7390036b3e44b36fcdaa8362b8b3"
+    }
+  ],
+  "budget_windows": [
+    {
+      "started_at": "2026-11-01T08:40:02.515068+00:00",
+      "deadline_at": null,
+      "overall_budget_seconds": null,
+      "instance_budget_seconds": null,
+      "phase2_gap_tolerance": 1e-05
+    },
+    {
+      "started_at": "2026-11-01T09:25:51.152911+00:00",
+      "deadline_at": null,
+      "overall_budget_seconds": null,
+      "instance_budget_seconds": 1800,
+      "phase2_gap_tolerance": 1e-05
+    }
+  ],
+  "checkpointed_instances": 12,
+  "exact_completed_instances": 11
+}

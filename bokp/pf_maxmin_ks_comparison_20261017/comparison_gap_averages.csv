@@ -1,0 +1,10 @@
+alternative,reference,evaluation_measure,average_percentage_gap,instances_included,estimated_ks_records_included,excluded_total,excluded_by_reason
+PF,PF,PF,0.0,600,0,0,{}
+PF,MM,MM,-4.368469764771971,537,0,63,"{""METHOD_UNAVAILABLE"": 63}"
+PF,KS,KS,-3.7231175608510707,537,0,63,"{""METHOD_UNAVAILABLE"": 63}"
+MM,PF,PF,-8.67232805089962,537,0,63,"{""METHOD_UNAVAILABLE"": 63}"
+MM,MM,MM,0.0,600,0,0,{}
+MM,KS,KS,-100.11743240486945,600,1,0,{}
+KS,PF,PF,-0.09202325650567647,537,0,63,"{""METHOD_UNAVAILABLE"": 63}"
+KS,MM,MM,-4.703191494930087,600,1,0,{}
+KS,KS,KS,0.0,600,1,0,{}

@@ -1,0 +1,12 @@
+{
+  "stage": 3,
+  "source_run": "results_corrected_stage3_seed20261102/20261101T102448Z",
+  "sizes": [
+    160,
+    180
+  ],
+  "instance_count": 12,
+  "minmax_gap_tolerance": 1e-05,
+  "time_limits": null,
+  "ks_results_reused": true
+}

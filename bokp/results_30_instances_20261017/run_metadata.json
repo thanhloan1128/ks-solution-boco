@@ -1,0 +1,93 @@
+{
+  "started_at_utc": "2026-10-17T12:08:06.209788+00:00",
+  "finished_at_utc": "2026-10-17T12:12:52.574210+00:00",
+  "total_wall_seconds": 286.3644493749998,
+  "instance_count": 600,
+  "instances_per_n": 30,
+  "n_values": [
+    50,
+    100,
+    150,
+    200,
+    250,
+    300,
+    350,
+    400,
+    450,
+    500,
+    550,
+    600,
+    650,
+    700,
+    750,
+    800,
+    850,
+    900,
+    950,
+    1000
+  ],
+  "startup_test": {
+    "status": "OPTIMAL",
+    "objective": 2.0,
+    "solution": [
+      1.0,
+      0.0
+    ],
+    "gurobi_version": "13.0.3"
+  },
+  "gurobi_version": "13.0.3",
+  "gurobi_seed": 271828,
+  "platform": "macOS-26.3.1-arm64-arm-64bit",
+  "python": "3.11.7 (v3.11.7:fa7a6f2303, Dec  4 2023, 15:22:56) [Clang 13.0.0 (clang-1300.0.29.30)]",
+  "output_root": "/Users/nguyenthanhloan/Documents/code/KS_Knapsack/results_30_instances_20261017",
+  "summary_path": "/Users/nguyenthanhloan/Documents/code/KS_Knapsack/results_30_instances_20261017/ks_summary.csv",
+  "failures": [
+    {
+      "instance_id": "bokp_n0850_i014",
+      "error": "RuntimeError(\"phase2P_4 did not solve to optimality: {'stage': 'phase2P_4', 'status_code': 11, 'status': '11', 'objective_value': None, 'runtime_seconds': 0.04157429200131446, 'termination': {'sol_count': 4, 'has_incumbent': True}, 'parameters': {'Threads': 1, 'Seed': 271828, 'TimeLimit': 'infinite', 'MIPGap': 0.0, 'MIPGapAbs': 0.0}}\")"
+    }
+  ],
+  "seed_policy": "BASE_SEED + n * 1009 + (instance_index - 1)",
+  "base_seed": 20261017,
+  "instance_generation": {
+    "rng": "random.Random",
+    "weight_range": [
+      1,
+      20
+    ],
+    "p_range": [
+      1,
+      30
+    ],
+    "q_range": [
+      10,
+      40
+    ],
+    "capacity": "floor(0.5 * sum(weights))",
+    "draw_order": "weight, p, q per item"
+  },
+  "solver_settings": {
+    "threads": 1,
+    "gurobi_seed": 271828,
+    "mip_gap": 0.0,
+    "mip_gap_abs": 0.0,
+    "time_limit": "infinite"
+  },
+  "averaging": "successful COMPLETED runs only; failed runs are counted in failed_runs and excluded from means",
+  "rho_convention": "signed rho = P/P_max - Q/Q_max; II measures are magnitudes for reporting only",
+  "failed_runs": [
+    {
+      "instance_id": "bokp_n0850_i014",
+      "error": "RuntimeError(\"phase2P_4 did not solve to optimality: {'stage': 'phase2P_4', 'status_code': 11, 'status': '11', 'objective_value': None, 'runtime_seconds': 0.04157429200131446, 'termination': {'sol_count': 4, 'has_incumbent': True}, 'parameters': {'Threads': 1, 'Seed': 271828, 'TimeLimit': 'infinite', 'MIPGap': 0.0, 'MIPGapAbs': 0.0}}\")"
+    },
+    "bokp_n0850_i014: RuntimeError(\"phase2P_4 did not solve to optimality: {'stage': 'phase2P_4', 'status_code': 11, 'status': '11', 'objective_value': None, 'runtime_seconds': 0.04157429200131446, 'termination': {'sol_count': 4, 'has_incumbent': True}, 'parameters': {'Threads': 1, 'Seed': 271828, 'TimeLimit': 'infinite', 'MIPGap': 0.0, 'MIPGapAbs': 0.0}}\")"
+  ],
+  "outputs": {
+    "instances": "/Users/nguyenthanhloan/Documents/code/KS_Knapsack/results_30_instances_20261017/instances",
+    "instance_results": "/Users/nguyenthanhloan/Documents/code/KS_Knapsack/results_30_instances_20261017/instance_results",
+    "per_instance_csv": "/Users/nguyenthanhloan/Documents/code/KS_Knapsack/results_30_instances_20261017/per_instance_results.csv",
+    "average_csv": "/Users/nguyenthanhloan/Documents/code/KS_Knapsack/results_30_instances_20261017/average_results.csv",
+    "latex": "/Users/nguyenthanhloan/Documents/code/KS_Knapsack/results_30_instances_20261017/ks_summary_average.tex"
+  },
+  "smoke_test": "completed in temporary output directory before the 600-run batch"
+}

@@ -1,0 +1,13 @@
+n,p,instance_id,instance_index,status,elapsed_seconds,elapsed_minutes,elapsed_lower_bound_seconds,note
+160,0.3,bostp_n0160_p03_i002,2,COMPLETED,14.617720208000001,0.24362867013333336,,Saved attempt only; not cumulative retry time.
+160,0.3,bostp_n0160_p03_i004,4,COMPLETED,9.884120500000002,0.1647353416666667,,Saved attempt only; not cumulative retry time.
+160,0.5,bostp_n0160_p05_i001,1,COMPLETED,24.678876291,0.41131460485000004,,Saved attempt only; not cumulative retry time.
+160,0.5,bostp_n0160_p05_i004,4,COMPLETED,28.925957917000005,0.4820992986166667,,Saved attempt only; not cumulative retry time.
+160,0.7,bostp_n0160_p07_i002,2,COMPLETED,20.753566875000004,0.34589278125000006,,Saved attempt only; not cumulative retry time.
+160,0.7,bostp_n0160_p07_i003,3,COMPLETED,13.121546959,0.21869244931666668,,Saved attempt only; not cumulative retry time.
+180,0.3,bostp_n0180_p03_i003,3,COMPLETED,23.004359332999996,0.38340598888333327,,Saved attempt only; not cumulative retry time.
+180,0.3,bostp_n0180_p03_i006,6,COMPLETED,76.65049645799999,1.2775082743,,Saved attempt only; not cumulative retry time.
+180,0.5,bostp_n0180_p05_i002,2,COMPLETED,32.83883604100001,0.5473139340166668,,Saved attempt only; not cumulative retry time.
+180,0.5,bostp_n0180_p05_i004,4,COMPLETED,26.33636745800004,0.43893945763333403,,Saved attempt only; not cumulative retry time.
+180,0.7,bostp_n0180_p07_i001,1,COMPLETED,20.118797125,0.33531328541666666,,Saved attempt only; not cumulative retry time.
+180,0.7,bostp_n0180_p07_i006,6,COMPLETED,102.25122162499997,1.7041870270833328,,Saved attempt only; not cumulative retry time.

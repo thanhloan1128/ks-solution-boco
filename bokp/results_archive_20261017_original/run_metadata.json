@@ -1,0 +1,39 @@
+{
+  "started_at_utc": "2026-10-17T11:46:09.549353+00:00",
+  "finished_at_utc": "2026-10-17T11:46:20.970650+00:00",
+  "total_wall_seconds": 11.420737375000499,
+  "instance_count": 20,
+  "n_values": [
+    50,
+    100,
+    150,
+    200,
+    250,
+    300,
+    350,
+    400,
+    450,
+    500,
+    550,
+    600,
+    650,
+    700,
+    750,
+    800,
+    850,
+    900,
+    950,
+    1000
+  ],
+  "startup_test": {
+    "status": "OPTIMAL",
+    "objective": 2.0,
+    "solution": [
+      1.0,
+      0.0
+    ],
+    "gurobi_version": "13.0.3"
+  },
+  "platform": "macOS-26.3.1-arm64-arm-64bit",
+  "python": "3.11.7 (v3.11.7:fa7a6f2303, Dec  4 2023, 15:22:56) [Clang 13.0.0 (clang-1300.0.29.30)]"
+}
